@@ -36,7 +36,7 @@ int main() {
         return 1;
     }
 
-    // Abre o dispositivo para captura
+    
     HANDLE = pcap_open_live(device->name, BUFSIZ, 1, 1000, errbuf);
     if (HANDLE == NULL) {
         fprintf(stderr, "Não foi possível abrir o dispositivo %s: %s\n", device->name, errbuf);
