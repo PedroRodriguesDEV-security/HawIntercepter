@@ -5,8 +5,8 @@ You can explore and diiscovery all paacket who the are send for you computer
 
 To compile:
 
-gcc HawkIntercept.c -o HawkIntercept
+`gcc HawkIntercept.c -o HawkIntercept`
 
 To execute:
 
-./HawkIntercept
+`./HawkIntercept`
